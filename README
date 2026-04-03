@@ -1,0 +1,30 @@
+# E-Ink Screen
+
+## Hardware Hacking
+
+the hardware: https://blog.jirkabalhar.cz/2023/12/hacking-sesimagotag-e-ink-price-tag/
+https://www.reddit.com/r/microcontrollers/comments/12jgtqc/fg22/?tl=de
+
+### FG22 Micro-chip
+
+Series 2 Proprietary Wireless 2.4 GHz SoC des Herstellers Silicon Laboratories
+
+- 32-Bit ARM Cortex-M33 Prozessors 
+- integrierten TrustZone-Sicherheitserweiterungen, 
+- 2.4 GHz Transceiver 
+- Zustandsmaschine für das Energiemanagement
+
+> FG22 C121GG C023Q5 2341
+
+1. FG22: Flex Gecko
+2. G: Secure Boot Mechanismus: Root of Trust, Secure Loader (RTSL)
+3. 1: MCU-Frequenz: 38,4
+4. 2: Power Amplifier: +6dBm
+5. 1: ohne Precision LFRCO
+6. G: Größe des Flash-Speichers
+7. G: Temperatur: -40degC to 85degC
+
+Data sheet: https://docs.rs-online.com/b661/A700000006799953.pdf
+
+> Yo, nach langer Recherche habe ich was mit Leuten hingekriegt, die einen anderen, aber sehr ähnlichen Chip benutzen, den CC2510 von Texas Instruments. Wenn du ein paar davon hast, kann ich dir helfen, falls du willst. Andererseits, falls du keine Hilfe mehr brauchst, hänge ich gerade ein bisschen in der Programmierung der RF-Kommunikation fest. Wenn du was hast, was mir helfen könnte, wäre das echt nice.
+> Translated: FG22 is similar to CC2510

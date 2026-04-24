@@ -4,12 +4,20 @@
 
 the hardware: https://blog.jirkabalhar.cz/2023/12/hacking-sesimagotag-e-ink-price-tag/
 a reddit thread: https://www.reddit.com/r/microcontrollers/comments/12jgtqc/fg22/?tl=de
-Found price tag: ses imagotag vusion 2.6 BWR GL440
-  S/N: 06R28S03413-N235190544
-  Model: EDG3-0260-A
-  ID: E8496B0B
 
-### FG22 Micro-chip
+### Found price tags: 
+
+1. ses imagotag vusion 2.6 BWR GL440
+    - Micro-chip: FG22
+    - S/N: 06R28S03413-N235190544
+    - Model: EDG3-0260-A
+    - ID: E8496B0B
+
+2. ses imagotag V300 2.6 BWRY GL440
+    - Micro-chip: CC23
+
+
+#### FG22 Micro-chip
 
 Series 2 Proprietary Wireless 2.4 GHz SoC des Herstellers Silicon Laboratories
 
@@ -32,3 +40,25 @@ Data sheet: https://docs.rs-online.com/b661/A700000006799953.pdf
 
 > Yo, nach langer Recherche habe ich was mit Leuten hingekriegt, die einen anderen, aber sehr ähnlichen Chip benutzen, den CC2510 von Texas Instruments. Wenn du ein paar davon hast, kann ich dir helfen, falls du willst. Andererseits, falls du keine Hilfe mehr brauchst, hänge ich gerade ein bisschen in der Programmierung der RF-Kommunikation fest. Wenn du was hast, was mir helfen könnte, wäre das echt nice.
 > Translated: FG22 is similar to CC2510
+
+#### CC23 Micro-chip
+
+> CC2340 R52 TI 578B AYZJ G3
+
+Beschriftung auf dem Flachbandkabel:
+
+```
+UL 94V-0
+E336178 HB1 
+FPC-A049 
+24.01.23 2532 
+rfrt x024K
+```
+
+Beschriftung auf der Rückseite des Displays
+
+```
+YE2266QSYF8 
+SPQ1RL1
+A4MF9206M4
+```
